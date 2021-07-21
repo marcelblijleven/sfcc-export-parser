@@ -50,13 +50,3 @@ func XMLtoJSON(filename, exportFile string) error {
 
 	return nil
 }
-
-func IncludesString(val string, slice []string) bool {
-	for _, item := range slice {
-		if item == val {
-			return true
-		}
-	}
-
-	return false
-}
